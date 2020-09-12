@@ -2,7 +2,7 @@ def count_strings(array)
 total = 0
 index = 0
   while index < array.count do
-  if array[index].is_a? String
+  if array[index].is_a.? String
   total += 1
 end
 index += 1
